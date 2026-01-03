@@ -26,7 +26,7 @@ class Booty
   }
   stinknumber(args)
   {
-    return  (((agrs.NUMBER /363.1575) ^ 5) /29);
+    return  (agrs.NUMBER ^ 7 / 9);
   }
   
 }
