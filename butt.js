@@ -10,15 +10,23 @@ class Booty
          {
            opcode: 'stinknumber',
            blockType: Scratch.BlockType.REPORTER,
-           text: 'Stink number'
+           text: 'Stink number [NUMBER]'
+           arguments:
+           {
+             NUMBER:
+             {
+                type: Scratch.ArgumentType.NUMBER,
+                  defaultValue: 726.315
+             }
+           }
          }
        ]
      };
     
   }
-  stinknumber()
+  stinknumber(args)
   {
-    return 'no';
+    return  (((agrs.NUMBER /363.1575) ^ 5) /29);
   }
   
 }
