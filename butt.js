@@ -3,8 +3,8 @@ class Booty
   getInfo()
   { return
      {
-       id: 'booty'
-       name: 'Booty Code'
+       id: 'booty',
+       name: 'Booty Code',
        blocks:
        [
          {
