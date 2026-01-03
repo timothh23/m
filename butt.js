@@ -18,7 +18,8 @@ class Booty
   }
   stinknumber()
   {
-    return no;
+    return 'no';
   }
+  
 }
 Scratch.extensions.register(new Booty());
