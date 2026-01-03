@@ -10,7 +10,7 @@ class Booty
          {
            opcode: 'stinknumber',
            blockType: Scratch.BlockType.REPORTER,
-           text: 'Stink number [NUMBER]'
+           text: 'Stink number [NUMBER]',
            arguments:
            {
              NUMBER:
