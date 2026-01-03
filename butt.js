@@ -17,7 +17,6 @@ class Booty
              {
                 type: Scratch.ArgumentType.NUMBER,
                   defaultValue: 726.315
-             }
            }
          }
        ]
@@ -26,7 +25,7 @@ class Booty
   }
   stinknumber(args)
   {
-    return  (agrs.NUMBER ^ 7 / 9);
+    return args.NUMBER ^ 7 / 721 % 37139;
   }
   
 }
