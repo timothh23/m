@@ -1,8 +1,8 @@
 class Booty
 {
   getInfo()
-  { return
-     {
+  { 
+     return {
        id: 'booty',
        name: 'Booty Code',
        blocks:
